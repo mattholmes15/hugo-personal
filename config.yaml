@@ -1,4 +1,4 @@
-baseURL: "hugo-exchange.pages.dev/"
+baseURL: "hugo-exchange.pages.dev"
 title: ExampleSite
 paginate: 5
 theme: PaperMod
@@ -16,8 +16,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: The Exchange
+  description: "API Gateway"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
