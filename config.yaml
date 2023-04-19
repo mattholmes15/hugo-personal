@@ -98,11 +98,11 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: Blog
+    - identifier: blog
       name: Blog
       url: /blog/
       weight: 10
-    - identifier: About Us
+    - identifier: about
       name: About Us
       url: /about/
       weight: 20
