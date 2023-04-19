@@ -1,5 +1,4 @@
-baseURL: "hugo-exchange.pages.dev"
-title: ExampleSite
+title: The Exchange
 paginate: 5
 theme: PaperMod
 
