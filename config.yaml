@@ -16,7 +16,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: m1r5h
-  description: "API Gateway"
+  description: "Platform Engineer"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -59,7 +59,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: m1r5h
-    subtitle: "API Gateway"
+    subtitle: "Platform Engineer"
     buttons:
       - name: Posts
         url: posts
