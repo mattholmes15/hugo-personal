@@ -1,4 +1,4 @@
-title: The Exchange
+title: m1r5h
 paginate: 5
 theme: PaperMod
 
@@ -15,7 +15,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: The Exchange
+  title: m1r5h
   description: "API Gateway"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
@@ -58,7 +58,7 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: The Exchange
+    title: m1r5h
     subtitle: "API Gateway"
     buttons:
       - name: Posts
@@ -68,8 +68,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "The Exchange"
-    Content: The Exchange
+    Title: "m1r5h"
+    Content: m1r5h
 
   socialIcons:
     - name: gitlab
