@@ -1,5 +1,5 @@
 baseurl = "http://www.example.com"
-title = "johndoe"
+title = "Matt Holmes"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -14,7 +14,7 @@ style = "github-dark"
 [params]
   author = "Matt Holmes"
   info = "Platform Engineer"
-  description = "John Doe's personal website"
+  description = "Matt Holmes' personal website"
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.jpg"
   #gravatar = "john.doe@example.com"
@@ -23,7 +23,7 @@ style = "github-dark"
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
 
-  since = 2019
+  since = 2020
 
   enableTwemoji = true
 
