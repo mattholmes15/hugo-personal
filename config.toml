@@ -6,8 +6,6 @@ defaultcontentlanguage = "en"
 
 paginate = 20
 
-disqusShortname = "yourdiscussshortname"
-
 [markup.highlight]
 style = "github-dark"
 
@@ -17,7 +15,6 @@ style = "github-dark"
   description = "Matt Holmes' personal website"
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.jpg"
-  #gravatar = "john.doe@example.com"
 
   faviconSVG = "/img/favicon.svg"
   favicon_32 = "/img/favicon-32x32.png"
@@ -30,7 +27,7 @@ style = "github-dark"
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
-  # customCSS = ["css/custom.css"]
+  customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
