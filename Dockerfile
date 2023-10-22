@@ -1,5 +1,13 @@
-FROM klakegg/hugo:0.111.3-ext AS build
+FROM hugomods/hugo:exts as builder
+# Base URL
+ARG HUGO_BASEURL=
+ENV HUGO_BASEURL=${HUGO_BASEURL}
+# Build site
 COPY . /src
+RUN hugo --minify --gc --enableGitInfo
 
-FROM nginx:1.25.2
-COPY --from=build /src/public /usr/share/nginx/html
+###############
+# Final Stage #
+###############
+FROM hugomods/hugo:nginx
+COPY --from=builder /src/public /site
