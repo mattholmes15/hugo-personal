@@ -2,7 +2,7 @@ body.colorscheme-dark {
   color: #e0c122;
   background-color: #212121; }
   body.colorscheme-dark a {
-    color: #e0c122; }
+    color: #42a5f5; }
   body.colorscheme-dark h1,
   body.colorscheme-dark h2,
   body.colorscheme-dark h3,
@@ -23,7 +23,7 @@ body.colorscheme-dark {
     body.colorscheme-dark h4 .heading-link,
     body.colorscheme-dark h5 .heading-link,
     body.colorscheme-dark h6 .heading-link {
-      color: #e0c122;
+      color: #42a5f5;
       font-weight: inherit;
       text-decoration: none;
       font-size: 80%;
@@ -69,7 +69,7 @@ body.colorscheme-dark {
     color: #e0c122;
     background-color: #212121; }
     body.colorscheme-auto a {
-      color: #e0c122; }
+      color: #42a5f5; }
     body.colorscheme-auto h1,
     body.colorscheme-auto h2,
     body.colorscheme-auto h3,
@@ -90,7 +90,7 @@ body.colorscheme-dark {
       body.colorscheme-auto h4 .heading-link,
       body.colorscheme-auto h5 .heading-link,
       body.colorscheme-auto h6 .heading-link {
-        color: #e0c122;
+        color: #42a5f5;
         font-weight: inherit;
         text-decoration: none;
         font-size: 80%;
@@ -141,12 +141,12 @@ body.colorscheme-dark .content .post .tags .tag {
 body.colorscheme-dark .content .list ul li .title {
   color: #e0c122; }
   body.colorscheme-dark .content .list ul li .title:hover, body.colorscheme-dark .content .list ul li .title:focus {
-    color: #e0c122; }
+    color: #42a5f5; }
 
 body.colorscheme-dark .content .centered .about ul li a {
   color: #e0c122; }
   body.colorscheme-dark .content .centered .about ul li a:hover, body.colorscheme-dark .content .centered .about ul li a:focus {
-    color: #e0c122; }
+    color: #42a5f5; }
 
 @media (prefers-color-scheme: dark) {
   body.colorscheme-auto .content .post .tags .tag {
@@ -158,11 +158,11 @@ body.colorscheme-dark .content .centered .about ul li a {
   body.colorscheme-auto .content .list ul li .title {
     color: #e0c122; }
     body.colorscheme-auto .content .list ul li .title:hover, body.colorscheme-auto .content .list ul li .title:focus {
-      color: #e0c122; }
+      color: #42a5f5; }
   body.colorscheme-auto .content .centered .about ul li a {
     color: #e0c122; }
     body.colorscheme-auto .content .centered .about ul li a:hover, body.colorscheme-auto .content .centered .about ul li a:focus {
-      color: #e0c122; } }
+      color: #42a5f5; } }
 
 body.colorscheme-dark .notice .notice-title {
   border-bottom: 1px solid #212121; }
@@ -176,7 +176,7 @@ body.colorscheme-dark .navigation span {
   color: #e0c122; }
 
 body.colorscheme-dark .navigation a:hover, body.colorscheme-dark .navigation a:focus {
-  color: #e0c122; }
+  color: #42a5f5; }
 
 @media only screen and (max-width: 768px) {
   body.colorscheme-dark .navigation .navigation-list {
@@ -195,7 +195,7 @@ body.colorscheme-dark .navigation a:hover, body.colorscheme-dark .navigation a:f
 body.colorscheme-dark .navigation i {
   color: #e0c122; }
   body.colorscheme-dark .navigation i:hover, body.colorscheme-dark .navigation i:focus {
-    color: #e0c122; }
+    color: #42a5f5; }
 
 body.colorscheme-dark .navigation .menu-button i:hover, body.colorscheme-dark .navigation .menu-button i:focus {
   color: #e0c122; }
@@ -205,7 +205,7 @@ body.colorscheme-dark .navigation .menu-button i:hover, body.colorscheme-dark .n
   body.colorscheme-auto .navigation span {
     color: #e0c122; }
   body.colorscheme-auto .navigation a:hover, body.colorscheme-auto .navigation a:focus {
-    color: #e0c122; } }
+    color: #42a5f5; } }
 
 @media only screen and (prefers-color-scheme: dark) and (max-width: 768px) {
   body.colorscheme-auto .navigation .navigation-list {
@@ -225,7 +225,7 @@ body.colorscheme-dark .navigation .menu-button i:hover, body.colorscheme-dark .n
   body.colorscheme-auto .navigation i {
     color: #e0c122; }
     body.colorscheme-auto .navigation i:hover, body.colorscheme-auto .navigation i:focus {
-      color: #e0c122; }
+      color: #42a5f5; }
   body.colorscheme-auto .navigation .menu-button i:hover, body.colorscheme-auto .navigation .menu-button i:focus {
     color: #e0c122; } }
 
@@ -266,17 +266,17 @@ body.colorscheme-dark .taxonomy-element {
       color: #e0c122; } }
 
 body.colorscheme-dark .footer a {
-  color: #e0c122; }
+  color: #42a5f5; }
 
 @media (prefers-color-scheme: dark) {
   body.colorscheme-auto .footer a {
-    color: #e0c122; } }
+    color: #42a5f5; } }
 
 body.colorscheme-dark .float-container a {
   color: #e0c122;
   background-color: #424242; }
   body.colorscheme-dark .float-container a:hover, body.colorscheme-dark .float-container a:focus {
-    color: #e0c122; }
+    color: #42a5f5; }
     @media only screen and (max-width: 768px) {
       body.colorscheme-dark .float-container a:hover, body.colorscheme-dark .float-container a:focus {
         color: #e0c122; } }
@@ -285,7 +285,7 @@ body.colorscheme-dark .float-container a {
     color: #e0c122;
     background-color: #424242; }
     body.colorscheme-auto .float-container a:hover, body.colorscheme-auto .float-container a:focus {
-      color: #e0c122; } }
+      color: #42a5f5; } }
     @media only screen and (prefers-color-scheme: dark) and (max-width: 768px) {
       body.colorscheme-auto .float-container a:hover, body.colorscheme-auto .float-container a:focus {
         color: #e0c122; } }
