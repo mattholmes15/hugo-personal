@@ -9,14 +9,14 @@ spec:
     matchLabels:
       app: hugo-site
       tier: web
-  template:
+  template: 
     metadata:
       labels:
         app: hugo-site
         tier: web
     spec:
       containers:
-      - image: ghcr.io/mattholmes15/hugo-personal
+      - image: mrh44/hugo-personal
         name: hugo-site
         imagePullPolicy: Always
         ports:
