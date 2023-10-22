@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hugo-site
+  namespace: hugo-site
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hugo-site
+      tier: web
+  template:
+    metadata:
+      labels:
+        app: hugo-site
+        tier: web
+    spec:
+      containers:
+      - image: ghcr.io/mattholmes15/hugo-personal
+        name: hugo-site
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+      imagePullSecrets:
+        - name: ghcr-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hugo-service
+  namespace: hugo-site
+  labels:
+    svc: hugo-service
+spec:
+  selector:
+    app: hugo-site
+    tier: web
+  ports:
+    - port: 80
+      targetPort: 80
