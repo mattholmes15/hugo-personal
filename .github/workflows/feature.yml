@@ -22,4 +22,4 @@ jobs:
           AWS_DEFAULT_OUTPUT: json
 
       - name: Generate static files
-        run: hugo
+        run: apt install hugo && hugo
