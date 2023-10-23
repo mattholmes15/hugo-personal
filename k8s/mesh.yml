@@ -2,6 +2,7 @@ apiVersion: networking.istio.io/v1alpha3
 kind: Gateway
 metadata:
   name: hugo-site-gateway
+  namespace: hugo-site
 spec:
   selector:
     istio: ingressgateway
@@ -17,6 +18,7 @@ apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
   name: hugo-site
+  namespace: hugo-site
 spec:
   hosts:
   - "*"
@@ -25,9 +27,9 @@ spec:
   http:
   - match:
     - uri:
-        exact: /hugo-site
+        prefix: /
     route:
     - destination:
         host: hugo-site
         port:
-          number: 8080
+          number: 80

@@ -1,3 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: hugo-site
+  labels:
+    istio-injection: enabled
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -29,10 +36,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: hugo-service
+  name: hugo-site
   namespace: hugo-site
   labels:
-    svc: hugo-service
+    svc: hugo-site
 spec:
   selector:
     app: hugo-site
@@ -40,3 +47,4 @@ spec:
   ports:
     - port: 80
       targetPort: 80
+      name: http
