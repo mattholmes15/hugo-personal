@@ -14,6 +14,14 @@ There is also a Github action to build a container image with the compiled stati
 
 Finally, there are also various manifests, such as within `k8s/` and `argocd/` - again, just for the purpose of learning and displaying different technologies, such as GitOps, Service Mesh etc. I'm using OrbStack to run these on my laptop locally.
 
+#### Pulumi
+
+Another route to hosting is via a static website on S3, using Cloudfront and WAF (if applicable).
+
+TODO:
+- If changes to main (feature branches for dev?) on specific files, push to S3 bucket
+- pip install in github actions job
+
 ##### Installed
 
 - Istio

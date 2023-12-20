@@ -1,0 +1,3 @@
+name: hugopersonal
+runtime: python
+description: Basic static website written in Hugo.

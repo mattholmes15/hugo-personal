@@ -2,3 +2,4 @@
 Pulumi.*.yaml
 public/
 __pycache__
+resources
