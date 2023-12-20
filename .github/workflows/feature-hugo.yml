@@ -1,0 +1,32 @@
+name: Feature Branch Workflow
+
+on:
+  push:
+    branches:
+      - 'feature/*'
+
+env:
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  AWS_DEFAULT_REGION: eu-west-2
+  AWS_DEFAULT_OUTPUT: json
+  S3_BUCKET: s3://hugo-bucket-hardcoded
+
+jobs:
+  publish-to-s3:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Delete s3 content
+        run: aws s3 rm $S3_BUCKET --recursive
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.119.0'
+
+      - name: Build and publish to s3
+        run: hugo && hugo deploy
